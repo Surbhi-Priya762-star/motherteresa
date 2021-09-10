@@ -1,0 +1,17 @@
+footer{
+   background-color:rgb(8, 8, 8);
+   width: 100%;
+    bottom: 0;
+    height: 500px;
+    padding-top: 10px;
+   
+   
+  }
+  .custom{
+    background: rgb(8, 8, 8);
+ 
+    font-size: medium;
+    font-family: 'Bree Serif', serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+}

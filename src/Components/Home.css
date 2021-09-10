@@ -1,0 +1,137 @@
+.Main{
+    margin-top: 40px;
+    background-color: #5375e2;
+    border: 8px dotted #f65868;
+}
+.Main2{
+    margin-top: 80px;
+    margin-top:20px;
+    background-color: #5c616e;
+    height: 400px;
+    align-items: center;
+   text-align: center;
+   justify-content: center;
+   border: 8px dotted #f65868;
+
+    
+}
+.image{
+    height: 300px;
+    width:500px;
+    padding-left: 20px;
+   
+}
+.cardgroup{
+    margin: auto;
+}
+
+.cards{
+    background-color: #5c616e;
+    padding-top: 20px;
+}
+
+
+.Main3{
+    margin-top: 80px;
+    height: 600px;
+    border: 8px dotted #f65868;
+    background-color: #5c616e;
+}
+.Image2{
+    height: 400px;
+    width: 600px;
+}
+.para{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Righteous', cursive;;
+    font-weight: 400;
+}
+
+.aboutus{
+    color: #f3aa92;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+.row{
+    margin-top: 30px;
+    width:100%
+}
+.session{
+    border-radius: 25%;
+    background-color: #5375e2;
+    text-align: center;
+    width: 80%;
+}
+.text6{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+}
+.Main4{
+    margin-top: 40px;
+    height:500px;
+}
+.sec-Div{
+    margin-top: 10px;
+    height: 500px;
+}
+.board{
+    background-color: #5375e2;
+    width: 100%;
+}
+.Main7{
+    margin-top: 90px;
+    text-align: center;
+    background-color: #5c616e;
+
+   
+}
+.image6{
+    height: 250px;
+    width:250px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+   
+}
+.card2{
+    text-align: center;
+    margin: auto;
+    background-color: #5c616e;
+   
+  
+}
+.cardgroup{
+    text-align: center;
+    margin: auto;
+   
+}
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Righteous', cursive; 
+    color: aliceblue;
+}
+.cardtext{
+    font-size:20px;
+    font-weight:400;
+    font-family: 'Righteous', cursive; 
+    color: aliceblue;
+}
+.Main9{
+    margin-top: 60px;
+    background-color: #5c616e;
+}
+.button{
+    width:340px;
+}
+.background{
+    background: url('https://images.unsplash.com/photo-1542587227-8802646daa56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+
+}

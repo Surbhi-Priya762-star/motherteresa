@@ -1,0 +1,49 @@
+.custom{
+    background-color: rgb(2, 2, 51);
+}
+
+.middle{
+    text-align: center;
+}
+.text1{
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 70px;
+   
+}
+.text2{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+}
+.text3{
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+}
+.custom1{
+    background-color: rgb(2, 2, 51);
+    padding-top: 0%;
+    height: 120px;
+
+} 
+hr{
+    border: 1px dotted rgb(8, 8, 8);
+    margin: 0;
+}
+.navtext{
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    margin-right: 40px;
+   
+}  
+.nav{
+    text-align: center;
+    margin: auto;
+}  
+
+
