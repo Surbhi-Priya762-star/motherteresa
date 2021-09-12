@@ -1,13 +1,28 @@
 import React from 'react';
 import{Navbar} from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
+import Marquee from "react-easy-marquee";
 import "./Header.css";
 import {Container} from 'react-bootstrap';
 
 function Header() {
     return (
         <div>
+           <Navbar className= "custom1" variant="dark">
+           <Marquee duration={10000}>
+             <h1 style={{color:'aliceblue'}}>Admission Open for 2022-23  <Button href="/Admission" className="button" style={{borderRadius:'45px',fontSize:'40px',background:'blue'}}>
+               Inquiry Now
+             </Button></h1>
+           </Marquee>
+           <Button href="/Adminlogin" className="button" variant="primary" size="lg" active>Admin LogIn</Button>
+           </Navbar>
+            
+         
+  
+ 
+
             <Navbar className="custom" variant="dark">
    
       <Navbar.Brand href="/">
@@ -26,6 +41,7 @@ function Header() {
          <h2 className="text2">Affiliated to C.B.S.E. Board</h2>
          <h4 className="text3">Ladwa Road, Ladwa(Kurukshetra)</h4>
 </div>
+
      </Container>
 </Navbar>
 <hr/>

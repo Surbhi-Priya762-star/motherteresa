@@ -132,7 +132,7 @@ function Home() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted"><Button variant="danger" size="lg" active>
+      <small className="text-muted"><Button href="/Academic" variant="danger" size="lg" active>
     Know More
   </Button></small>
     </Card.Footer>
@@ -146,7 +146,7 @@ function Home() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted"><Button variant="danger" size="lg" active>
+      <small className="text-muted"><Button href="/Infrastructure" variant="danger" size="lg" active>
     Know More
   </Button></small>
     </Card.Footer>
@@ -160,7 +160,7 @@ function Home() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted"><Button variant="danger" size="lg" active>
+      <small className="text-muted"><Button href="/Mediaroom" variant="danger" size="lg" active>
     Know More
   </Button></small>
     </Card.Footer>
@@ -174,7 +174,7 @@ function Home() {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted"><Button variant="danger" size="lg" active>
+      <small className="text-muted"><Button href="/Download" variant="danger" size="lg" active>
     Know More
   </Button></small>
     </Card.Footer>
@@ -183,20 +183,20 @@ function Home() {
 </div>
         
  <div className="Main9">
- <Marquee duration={10000} background="#5c616e" height="100px">
- <Button className="button" variant="primary" size="lg" active>
+ <div style={{background:"#5c616e", height:"100px", textAlign:'center'}} >
+ <Button href="/career"  className="button" variant="primary" size="lg" active style={{marginLeft:'50px',height:"80px"}}>
     Job Application <FaBriefcase/>
   </Button>
-  <Button className="button" variant="primary" size="lg" active>
+  <Button href="/Alumini" className="button" variant="primary" size="lg" active style={{marginLeft:'140px',height:"80px"}}>
     Alumini <FaFont/>
   </Button>
-  <Button className="button" variant="primary" size="lg" active>
+  <Button href="/OurStaff" className="button" variant="primary" size="lg" active style={{marginLeft:'140px',height:"80px"}}>
    Our Staff <FaRegAddressCard/>
   </Button>
-  <Button className="button" variant="primary" size="lg" active>
+  <Button href="/Helpdesk" className="button" variant="primary" size="lg" active style={{marginLeft:'140px',height:"80px"}}>
   helpdesk <FaHSquare/>
   </Button>
-        </Marquee>
+        </div>
 
 
 

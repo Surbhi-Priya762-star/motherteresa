@@ -11,7 +11,7 @@ function Career() {
         <div>
             <Header/>
             <Container>
-                <div style={{backgroundColor:'#7791a1',height:'800px', borderRadius:'25px',marginTop:'30px'}}>
+                <div style={{backgroundColor:'#7791a1',height:'900px', borderRadius:'25px',marginTop:'30px'}}>
                     <div style={{marginLeft:'200px'}}>
                <h1 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '50px'}}> Mother Teresa Modern Public School </h1>
                <h4 style={{color: '#260600', fontWeight: '900',fontSize: '30px', marginLeft:'150px'}}>(Affiliated to C.B.S.E., NEW DELHI)</h4>
@@ -22,10 +22,10 @@ function Career() {
                </div>
                 <Form style={{width:'50%', marginLeft:'260px',marginTop:'60px'}}>
           
-                       <Form.Control style={{marginTop:'20px'}} placeholder="Name" />
-                       <Form.Control style={{marginTop:'20px'}} placeholder="Email" type="email" />
-                       <Form.Control style={{marginTop:'20px'}} placeholder="Phone Number" type="Number" />
-                       <Form.Control style={{marginTop:'20px'}} placeholder="Subject" />
+                       <Form.Control style={{marginTop:'20px',height:'60px'}} placeholder="Name" />
+                       <Form.Control style={{marginTop:'20px',height:'60px'}} placeholder="Email" type="email" />
+                       <Form.Control style={{marginTop:'20px',height:'60px'}} placeholder="Phone Number" type="Number" />
+                       <Form.Control style={{marginTop:'20px',height:'60px'}} placeholder="Subject" />
                        <FloatingLabel controlId="floatingTextarea2" label="Message" style={{marginTop:'20px'}}>
                       <Form.Control
                               as="textarea"

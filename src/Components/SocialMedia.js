@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col,  Row } from 'react-bootstrap';
 import Footer from './Footer/Footer';
 
 function SocialMedia() {
@@ -30,7 +30,7 @@ function SocialMedia() {
             
 </Col>
 <Col xs={12}>
-<h1 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '80px', marginLeft:'80px'}}> For more Updates Visit our Facebook Page <span style={{fontSize:'30px',fontWeight:'500'}}> <a href={"https://www.facebook.com/mtmpskurukshetra"} target="_blank"
+<h1 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '80px', marginLeft:'80px'}}> For more Updates Visit our Facebook Page <span style={{fontSize:'30px',fontWeight:'500'}}> <a href={"https://www.facebook.com/mtmpskurukshetra"} target="_blank" rel="noreferrer"
 >FacebookLink</a></span></h1>
 </Col>
 

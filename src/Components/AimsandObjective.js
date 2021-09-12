@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import{Button} from 'react-bootstrap';
+
 import Header from './Header';
 import Footer from './Footer/Footer';
 

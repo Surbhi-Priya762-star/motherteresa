@@ -11,14 +11,14 @@ function Admission() {
         <div>
             <Header/>
             <Container>
-                <div style={{backgroundColor:'gray',height:'800px', borderRadius:'25px',marginTop:'30px'}}>
+                <div style={{backgroundColor:'gray',height:'1000px', borderRadius:'25px',marginTop:'30px'}}>
             <img style={{marginLeft:'200px'}}src="/Images/admission.PNG" alt="admission" />
-                <Form style={{width:'50%', marginLeft:'260px',marginTop:'60px'}}>
+                <Form style={{width:'50%', marginLeft:'260px',marginTop:'60px',fontSize:'20px',fontWeight:'500'}}>
                    
-                       <Form.Control style={{marginTop:'20px'}} placeholder="Name" />
-                       <Form.Control style={{marginTop:'20px'}} placeholder="Email" type="email" />
-                       <Form.Control style={{marginTop:'20px'}} placeholder="Phone Number" type="Number" />
-                       <Form.Select style={{marginTop:'20px'}}>
+                       <Form.Control style={{marginTop:'20px',height:'70px'}} placeholder="Name" />
+                       <Form.Control style={{marginTop:'20px',height:'70px'}} placeholder="Email" type="email" />
+                       <Form.Control style={{marginTop:'20px',height:'70px'}} placeholder="Phone Number" type="Number" />
+                       <Form.Select style={{marginTop:'20px',height:'70px'}}>
                      <option>Admission Enquiry For</option>
                      <option value="1">Nursery</option>
                      <option value="2">KG</option>
