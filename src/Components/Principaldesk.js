@@ -2,17 +2,19 @@ import React from 'react';
 
 import Header from './Header';
 import Footer from './Footer/Footer';
+import { Container } from 'react-bootstrap';
 
 function Principaldesk() {
     return (
         <div>
            <Header/>
-            <div style={{height:'1800px', border: '8px dotted #f65868', backgroundColor: '#5c616e',fontSize:'28px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100'}}>
+           <Container>
+            <div style={{height:'1600px', border: '8px dotted #f65868', backgroundColor: '#5c616e',fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100'}}>
     
     <h1 className="aboutus">From Principal Desk</h1>
 
 
-  <img style={{marginLeft:'850px'}} className="Image2" src="\Images\director.png" alt="AboutUS" />
+  <img style={{marginLeft:'430px'}} className="Images2" src="\Images\director.png" alt="AboutUS" />
   
  
  
@@ -58,7 +60,7 @@ Meenu Madan
 </div>   
 
 
-
+</Container>
 
 
             <Footer/>

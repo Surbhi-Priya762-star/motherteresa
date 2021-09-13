@@ -1,32 +1,35 @@
 .custom{
     background-color: rgb(2, 2, 51);
+    width: 100%;
 }
 
 .middle{
     text-align: center;
+    width: 100%;
 }
 .text1{
     color: aliceblue;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 60px;
    
 }
 .text2{
     color: aliceblue;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Righteous', cursive;
 }
 .text3{
     color: aliceblue;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Righteous', cursive;
 }
 .custom1{
     background-color: rgb(2, 2, 51);
     padding-top: 0%;
-    height: 120px;
+    height: 90px;
+    width: 100%;
 
 } 
 hr{
@@ -35,10 +38,10 @@ hr{
 }
 .navtext{
     color: aliceblue;
-    font-weight: 400;
-    font-size: 25px;
+    font-weight: 200;
+    font-size: 20px;
     font-family: 'Righteous', cursive;
-    margin-right: 40px;
+    margin-right: 10px;
    
 }  
 .nav{

@@ -12,11 +12,14 @@ function Header() {
         <div>
            <Navbar className= "custom1" variant="dark">
            <Marquee duration={10000}>
-             <h1 style={{color:'aliceblue'}}>Admission Open for 2022-23  <Button href="/Admission" className="button" style={{borderRadius:'45px',fontSize:'40px',background:'blue'}}>
+             <h1 style={{color:'aliceblue'}}>Admission Open for 2022-23
+              <Button href="/Admission" className="button" style={{borderRadius:'45px',fontSize:'10px',background:'blue',width:'150px'}}>
                Inquiry Now
-             </Button></h1>
+             </Button></h1> 
+
            </Marquee>
            <Button href="/Adminlogin" className="button" variant="primary" size="lg" active>Admin LogIn</Button>
+          
            </Navbar>
             
          
@@ -29,8 +32,8 @@ function Header() {
         <img
           alt=""
           src="\Images\mothere teresa logo.png"
-          width="280"
-          height="250"
+          width="250"
+          height="220"
           className="d-inline-block align-top"
         />{' '}
      </Navbar.Brand>
@@ -95,6 +98,20 @@ function Header() {
       <Nav.Link href="/Career" className="navtext">Career</Nav.Link>
       <Nav.Link href="/Admission" className="navtext">Admission Inquiry</Nav.Link>
       <Nav.Link href="/Contact" className="navtext">Contact Us</Nav.Link>
+      <NavDropdown title="Mandatoty Public Disclosure" id="basic-nav-dropdown" className="navtext">
+     
+          <NavDropdown.Item href="/GeneralInformation">General Information</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="/Documents">Documents and Information</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="/Results">Results and Academics</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="/StaffTeaching">Staff Teaching</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="/SchoolInfrastructure">School Infrastructure</NavDropdown.Item>
+          <NavDropdown.Divider />
+         
+          </NavDropdown>
     </Nav>
    
   

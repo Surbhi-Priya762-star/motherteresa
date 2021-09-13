@@ -10,7 +10,7 @@ function Directormessage() {
         <div>
            <Header/>
            <Container>
-            <div style={{height:'1500px', border: '8px dotted #f65868', backgroundColor: '#5c616e',margin:'auto'}}>
+            <div style={{height:'1200px', border: '8px dotted #f65868', backgroundColor: '#5c616e',margin:'auto'}}>
     
     <h1 className="aboutus">Managing Director's Message</h1>
 
@@ -18,10 +18,10 @@ function Directormessage() {
   <img style={{marginLeft:'400px'}} src="\Images\director.png" alt="AboutUS" />
 
  
-  <p style={{fontSize:'28px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100', margin:'auto'}}>
+  <p style={{fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100', margin:'auto'}}>
   <span style={{fontWeight: '800', color:'orange'}}>“Each human being is born with a unique set of potential that yearns to be fulfilled as surely as the acorn yearns to become the oak within it”</span>–Aristotle
 
-<p>Mother Teresa Modern Public School provides an environment in which every student discovers and realizes his inborn potential. We create self-awareness amongst children and help in capacity building. We are concerned about the overall health and wellbeing of learners encompassing their mental, physical, emotional and spiritual dimensions.
+<p  style={{fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100', margin:'auto'}}>Mother Teresa Modern Public School provides an environment in which every student discovers and realizes his inborn potential. We create self-awareness amongst children and help in capacity building. We are concerned about the overall health and wellbeing of learners encompassing their mental, physical, emotional and spiritual dimensions.
 
 In the firm belief that “Good education is the high road to personal and national progress”, the school aims at drawing out what is best in the child, through appropriate learning experiences and opportunities, a desire to learn, not just in the classroom, but all the time making it an on-going process through life.
 

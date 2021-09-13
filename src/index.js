@@ -30,7 +30,15 @@ import studenthelp from './Components/studenthelp';
 import Adminlogin from './Components/Adminlogin';
 import Academic from './Components/Academic';
 import Mediaroom from './Components/Mediaroom';
+import GeneralInformation from './Components/Adminaccess/GeneralInformation';
+import Documents from './Components/Adminaccess/Documents';
+import Results from './Components/Adminaccess/Results';
+import StaffTeaching from './Components/Adminaccess/StaffTeaching';
+import SchoolInfrastructure from './Components/Adminaccess/SchoolInfrastructure';
+import Onlinefee from './Components/Onlinefee';
 import reportWebVitals from './reportWebVitals';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -66,6 +74,13 @@ ReactDOM.render(
         <Route path="/Videos" component={Videos}/>
         <Route path="/Academic" component={Academic}/>
         <Route path="/Mediaroom" component={Mediaroom}/>
+        <Route path="/GeneralInformation" component={GeneralInformation}/>
+        <Route path="/Documents" component={Documents}/>
+        <Route path="/Results" component={Results}/>
+        <Route path="/StaffTeaching" component={StaffTeaching}/>
+        <Route path="/SchoolInfrastructure" component={SchoolInfrastructure}/>
+        <Route path="/Onlinefee" component={Onlinefee}/>
+        
    
        
 

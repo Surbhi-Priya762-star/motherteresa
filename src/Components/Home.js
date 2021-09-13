@@ -64,22 +64,33 @@ function Home() {
         </div>
   <div className="Main2">
   <CardGroup className="cardgroup" >
+    <a href="/Activities">
   <Card className="cards">
-    <Card.Img className="image" variant="top" src="\Images\Activity.jpg" />
+   <Card.Img className="image" variant="top" src="\Images\Activity.jpg" />
    
   </Card>
+</a>
+
+<a href="/Onlinefee">
   <Card className="cards">
     <Card.Img className="image" variant="top" src="\Images\onlinefee.jpg" />
   
   </Card>
+  </a>
+ 
+  <a href="/Syllabus">
   <Card className="cards">
     <Card.Img className="image" variant="top" src="\Images\Syllabus.jpg" />
    
   </Card>
+  </a>
+  <a href="Achievements">
   <Card className="cards">
     <Card.Img className="image" variant="top" src="\Images\Achievement.jpg" />
    
   </Card>
+  </a>
+
 </CardGroup>
     </div> 
     <div className="Main3">
@@ -93,7 +104,7 @@ function Home() {
     <p className="para">
     Mother Teresa Modern Public School is a premier educational institution of the region ,<p>Established by Major R.S Chahal city magistrate in the year 1999.</p>The School is affiliated to Central Board of Secondary Education,Delhi upto Secondary Level.
     </p>
-    <Button variant="danger" size="lg" active>
+    <Button href="/AboutUs" variant="danger" size="lg" active>
     Know More
   </Button>{' '}
     </Col>
@@ -105,7 +116,7 @@ function Home() {
   </Row>
   </div>   
       <div className="Main4">
-<h1 style={{fontSize:'70px',textAlign:'center',color: '#ffffff', fontweight: '600', lineheight: '64px', margin: '0 0 0', padding: '20px 30px', textalign: 'center', texttransform: 'uppercase',background:'#281931'}}>Few Updates:</h1>
+<h1 style={{fontSize:'60px',textAlign:'center',color: '#ffffff', fontweight: '500', lineheight: '64px', margin: '0 0 0', padding: '20px 30px', textalign: 'center', texttransform: 'uppercase',background:'#281931'}}>Few Updates:</h1>
 <div className="sec-Div">
 <Marquee duration={10000} background="#fafafa" height="350px">
        
@@ -183,17 +194,17 @@ function Home() {
 </div>
         
  <div className="Main9">
- <div style={{background:"#5c616e", height:"100px", textAlign:'center'}} >
- <Button href="/career"  className="button" variant="primary" size="lg" active style={{marginLeft:'50px',height:"80px"}}>
+ <div style={{background:"#5c616e", height:"100px"}} >
+ <Button href="/career"  className="button" variant="primary" size="lg" active style={{marginLeft:'20px',height:"50px",marginTop:'20px'}}>
     Job Application <FaBriefcase/>
   </Button>
-  <Button href="/Alumini" className="button" variant="primary" size="lg" active style={{marginLeft:'140px',height:"80px"}}>
+  <Button href="/Alumini" className="button" variant="primary" size="lg" active style={{marginLeft:'20px',height:"50px",marginTop:'20px'}}>
     Alumini <FaFont/>
   </Button>
-  <Button href="/OurStaff" className="button" variant="primary" size="lg" active style={{marginLeft:'140px',height:"80px"}}>
+  <Button href="/OurStaff" className="button" variant="primary" size="lg" active style={{marginLeft:'20px',height:"50px",marginTop:'20px'}}>
    Our Staff <FaRegAddressCard/>
   </Button>
-  <Button href="/Helpdesk" className="button" variant="primary" size="lg" active style={{marginLeft:'140px',height:"80px"}}>
+  <Button href="/Helpdesk" className="button" variant="primary" size="lg" active style={{marginLeft:'20px',height:"50px",marginTop:'20px'}}>
   helpdesk <FaHSquare/>
   </Button>
         </div>

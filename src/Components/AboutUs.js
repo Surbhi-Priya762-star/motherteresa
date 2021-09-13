@@ -18,7 +18,7 @@ function AboutUs() {
   <img className="Image2" src="\Images\Aboutus.jpg" alt="AboutUS" />
   </Col>
   <Col>
-  <p style={{fontSize:'28px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '400'}}>
+  <p style={{fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '400'}}>
   Mother Teresa Modern Public School is a premier educational institution of the region ,Established by Major R.S Chahal  city magistrate in the year 1999.The School is affiliated to Central Board of Secondary Education,Delhi upto Secondary Level.
 
 Mother Teresa Modern Public School is being run  by  the management  of Karan Urban and rural Development Trust.Under the guidance of the worth Director of our  parent body by  Dr. R.Kumar(from Moscow,Russia),this school is imparting quality education to the students.
