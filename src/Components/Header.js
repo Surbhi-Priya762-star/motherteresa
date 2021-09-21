@@ -13,12 +13,10 @@ function Header() {
            <Navbar className= "custom1" variant="dark">
            <Marquee duration={10000}>
              <h1 style={{color:'aliceblue'}}>Admission Open for 2022-23
-              <Button href="/Admission" className="button" style={{borderRadius:'45px',fontSize:'10px',background:'blue',width:'150px'}}>
-               Inquiry Now
-             </Button></h1> 
+              </h1> 
 
            </Marquee>
-           <Button href="/Adminlogin" className="button" variant="primary" size="lg" active>Admin LogIn</Button>
+           <Button href="/Adminlogin" className="button" variant="primary"  active>Admin LogIn</Button>
           
            </Navbar>
             
@@ -32,22 +30,22 @@ function Header() {
         <img
           alt=""
           src="\Images\mothere teresa logo.png"
-          width="250"
-          height="220"
+          width="200"
+          height="180"
           className="d-inline-block align-top"
         />{' '}
      </Navbar.Brand>
      <Container>
          <div className="middle">
          <h1 className="text1">Mother Teresa Modern Public School</h1>
-         <br/>
+         
          <h2 className="text2">Affiliated to C.B.S.E. Board</h2>
          <h4 className="text3">Ladwa Road, Ladwa(Kurukshetra)</h4>
 </div>
 
      </Container>
 </Navbar>
-<hr/>
+
   <Navbar className= "custom1" variant="dark">
  
 
