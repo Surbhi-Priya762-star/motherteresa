@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Component, useEffect } from 'react';
 import ReactDOM from 'react-dom';
+import 'antd/dist/antd.css';
 import './index.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import App from './App';
+import 'react-toastify/dist/ReactToastify.css';
 import AboutUs from './Components/AboutUs';
 import AimsandObjective from './Components/AimsandObjective';
 import Directormessage from './Components/Directormessage';
@@ -38,8 +40,46 @@ import SchoolInfrastructure from './Components/Adminaccess/SchoolInfrastructure'
 import Onlinefee from './Components/Onlinefee';
 import reportWebVitals from './reportWebVitals';
 
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 
+import AdminDashboard from './Components/adminDashboard';
+import { initializeApp } from "firebase/app";
+const firebaseConfig = {
+  apiKey: "AIzaSyD02SmBCQTjcnX9a9kiA_9O4fvD0hEq4gk",
+  authDomain: "motherteresa-d7f08.firebaseapp.com",
+  projectId: "motherteresa-d7f08",
+  storageBucket: "motherteresa-d7f08.appspot.com",
+  messagingSenderId: "339180107303",
+  appId: "1:339180107303:web:c8678d3b1c25b463250002"
+};
 
+// Initialize Firebase
+initializeApp(firebaseConfig);
+const ProtectedRoute = ({component, path}) => {
+  console.log('Component', component)
+  const auth = getAuth();
+  const [userState, setUserState] = React.useState(1);
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/reference/js/firebase.User
+        const uid = user.uid;
+        console.log('user exist', user, uid)
+        setUserState(true)
+        // ...
+      } else {
+        console.log('user logout', user);
+        // User is signed out
+        // ...
+      }
+    });
+  }, [])
+  if(userState === 1 ) {
+    return <div>Loading....</div>
+  }
+  return userState ? <Route path={path} component={component} />: <Redirect to="/" />
+}
 ReactDOM.render(
   <React.StrictMode>
   <Router>
@@ -80,11 +120,10 @@ ReactDOM.render(
         <Route path="/StaffTeaching" component={StaffTeaching}/>
         <Route path="/SchoolInfrastructure" component={SchoolInfrastructure}/>
         <Route path="/Onlinefee" component={Onlinefee}/>
-        
-   
-       
-
-
+        <ProtectedRoute 
+          path="/Dashboard"
+          component={AdminDashboard}
+        />
         </Switch>
         </Router>
   </React.StrictMode>,
