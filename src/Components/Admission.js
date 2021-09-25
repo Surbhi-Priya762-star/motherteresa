@@ -12,7 +12,7 @@ function Admission() {
             <Header/>
             <Container>
                 <div style={{backgroundColor:'#fefefe',height:'950px', borderRadius:'25px',marginTop:'30px',width:'80%',margin:'auto'}}>
-            <img style={{margin:'auto',width:'100%'}}src="/Images/admission.PNG" alt="admission" />
+            <img style={{margin:'auto',width:'100%'}}src="/Images/admission.png" alt="admission" />
                 <Form style={{width:'50%', marginLeft:'260px',marginTop:'60px',fontSize:'20px',fontWeight:'500'}}>
                    
                        <Form.Control style={{marginTop:'20px',height:'50px',borderWidth:'4px'}} placeholder="Name" />

@@ -14,19 +14,19 @@ function SocialMedia() {
 <Row>
 <h1 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '80px', marginLeft:'260px'}}> Social Media Coverage </h1>
     <Col xs={6}>
-                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage1.PNG" alt="career" />
+                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage1.png" alt="career" />
           
                 </Col>
                 <Col xs={6}>
-                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage2.PNG" alt="career" />
+                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage2.png" alt="career" />
              
                 </Col>
                 <Col xs={6}>
-                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage3.PNG" alt="career" />
+                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage3.png" alt="career" />
               
                 </Col>
                 <Col xs={6}>
-                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage4.PNG" alt="career" />
+                <img style={{marginLeft:'60px',height:'400px',width:'450px',marginTop:'50px'}}src="/Images/socialmediacoverage4.png" alt="career" />
             
 </Col>
 <Col xs={12}>

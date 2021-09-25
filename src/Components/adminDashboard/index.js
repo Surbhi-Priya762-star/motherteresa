@@ -7,18 +7,19 @@ import Schoolinfra from './schoolInfra';
 import ResultandAcademic from './resultandAcademic';
 import StaffTeaching from './staffteaching';
 import DocumentDetails from './document';
-const  { Header, Sider,  Footer, Content } = Layout;
+import Footer from '../Footer/Footer';
+const  { Header, Sider,  Content } = Layout;
 
 const AdminDashboard = () => {
   const history =  useHistory();
-  const [menuIndex, setMenuIndex] = React.useState(2);
+  const [menuIndex, setMenuIndex] = React.useState(1);
   const MenuSlider = () => {
     switch (menuIndex) {
       case 1: return <BasicDetails />
       case 2: return <DocumentDetails />
       case 3: return <ResultandAcademic/>
-      case 4: return  <Schoolinfra/>
-      case 5: return <StaffTeaching/>
+      case 4: return <StaffTeaching />
+      case 5: return  <Schoolinfra/>
       default : return  <BasicDetails />
     }
   }
@@ -52,9 +53,7 @@ const AdminDashboard = () => {
         </Col>
       </Row>
       
-      <Footer style={{maxHeight: '12vh'}}>
-        Mothertresa.in
-      </Footer>
+      <Footer />
     </Col>
   </Layout>
 }

@@ -2,8 +2,21 @@ import React from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header';
 import { Container, Table } from 'react-bootstrap';
+import { getDatabase, ref, get } from 'firebase/database';
 
 function SchoolInfrastructure() {
+  const [infra, setinfra] = React.useState({});
+  const db = getDatabase();
+  React.useEffect(() => {
+    const starRef = ref(db, 'infra');
+    get(starRef).then((snapshot) => {
+      const data = snapshot.val();
+      // updateStarCount(postElement, data);
+      console.log('data', data)
+      setinfra({ ...data })
+      // setTableData([...data])
+    });
+  }, [])
     return (
         <div>
             <Header/>
@@ -24,43 +37,43 @@ function SchoolInfrastructure() {
     <tr>
       <td>1</td>
      <td style={{height:'90px',width:'480px'}}>Total Campus Area of the School(insq.mtr.)</td>
-      <td></td>
+                  <td>{infra?.campusArea}</td>
       
     </tr>
     <tr>
       <td>2</td>
       <td style={{height:'90px',width:'480px'}}>No. and size of the class rooms(in sq.ft.mtr.)</td>
-      <td></td>
+                  <td>{infra?.sizeClass}</td>
      
     </tr>
     <tr>
       <td>3</td>
       <td style={{height:'90px',width:'480px'}} >N0. and size of laboratories including Computer labs(in sq.mtr.)</td>
-      <td></td>
+                  <td>{infra?.sizeLab}</td>
     
     </tr>
     <tr>
       <td>4</td>
       <td style={{height:'90px',width:'480px'}} >Internet Facility(Y/N)</td>
-      <td></td>
+                  <td>{infra?.internet}</td>
     
     </tr>
     <tr>
       <td>5</td>
       <td style={{height:'90px',width:'480px'}}>No. of Girls Toilet</td>
-      <td></td>
+                  <td>{infra?.girltoilet}</td>
 
     </tr>
     <tr>
       <td>6</td>
       <td style={{height:'90px',width:'480px'}}>No. of Boys Toilet</td>
-      <td></td>
+                  <td>{infra?.boytoilet}</td>
     
     </tr>
     <tr>
       <td>7</td>
       <td style={{height:'90px',width:'480px'}}>Link of Youtube Video of the Inspection of the School Covering the infrastructure of the School</td>
-      <td></td>
+                  <td>{infra?.video}</td>
     
     </tr>
   </tbody>

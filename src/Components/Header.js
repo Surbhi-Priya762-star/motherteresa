@@ -96,16 +96,13 @@ function Header() {
       <Nav.Link href="/Career" className="navtext">Career</Nav.Link>
       <Nav.Link href="/Admission" className="navtext">Admission Inquiry</Nav.Link>
       <Nav.Link href="/Contact" className="navtext">Contact Us</Nav.Link>
-            <Nav.Link onClick={() => {
+            {/* <Nav.Link onClick={() => {
               const win = window.open("https://docs.google.com/document/d/e/2PACX-1vSOzYWSZ5nVQxjA5CTeWiP-LXEUpXS6BSxKLYr5OqRaEdMUic1PGuWJKMztzbNfVKMYGKztUqDPzn0k/pub", "_blank");
               win.focus();
-            }} href="/" className="navtext">Mandatoty Public Disclosure</Nav.Link>
-      {/* <NavDropdown onClick={() => {
-              const win = window.open("https://google.com", "_blank");
-              win.focus();
-      }} title="Mandatoty Public Disclosure" id="basic-nav-dropdown" className="navtext">
-      */}
-          {/* <NavDropdown.Item href="/GeneralInformation">General Information</NavDropdown.Item>
+            }} href="/" className="navtext">Mandatoty Public Disclosure</Nav.Link> */}
+      <NavDropdown title="Mandatoty Public Disclosure" id="basic-nav-dropdown" className="navtext">
+     
+          <NavDropdown.Item href="/GeneralInformation">General Information</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="/Documents">Documents and Information</NavDropdown.Item>
           <NavDropdown.Divider />
@@ -114,9 +111,9 @@ function Header() {
           <NavDropdown.Item href="/StaffTeaching">Staff Teaching</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="/SchoolInfrastructure">School Infrastructure</NavDropdown.Item>
-          <NavDropdown.Divider /> */}
+          <NavDropdown.Divider />
          
-          {/* </NavDropdown> */}
+          </NavDropdown>
     </Nav>
    
   

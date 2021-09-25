@@ -4,8 +4,10 @@ import Header from './Header';
 import Footer from './Footer/Footer';
 import {ToastContainer, toast} from 'react-toastify';
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { useHistory } from 'react-router';
 
 function Adminlogin() {
+  const history = useHistory();
   const auth  =  getAuth();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -29,7 +31,7 @@ function Adminlogin() {
             <Header/>
             <Container>
                 <div style={{backgroundColor:'gray',height:'600px', borderRadius:'25px',marginTop:'30px'}}>
-            <img style={{marginLeft:'430px'}}src="/Images/logo.PNG" alt="career" />
+            <img style={{marginLeft:'430px'}}src="/Images/logo.png" alt="career" />
             <Form style={{width:'50%', marginLeft:'260px',marginTop:'60px',fontSize:'20px',fontWeight:'500'}}>
           <Form.Control onChange={({target}) => setEmail(target.value) } style={{marginTop:'20px',height:'70px'}} placeholder="User Name" />
               <Form.Control onChange={({ target }) => setPassword(target.value)} style={{marginTop:'20px',height:'70px'}} placeholder="Password" type="Password" />
@@ -42,7 +44,9 @@ function Adminlogin() {
             // Signed in 
             const user = userCredential.user;
             console.log('User', user);
+
             toast.dark('Loged In SuccessFully')
+            history.push('/Dashboard')
             // ...
           })
           .catch((error) => {

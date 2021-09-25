@@ -11,7 +11,7 @@ function Alumini() {
             <Header/>
             <Container>
                 <div style={{backgroundColor:'gray',height:'1600px', borderRadius:'25px',marginTop:'30px'}}>
-            <img style={{marginLeft:'200px'}}src="/Images/alumini.PNG" alt="career" />
+            <img style={{marginLeft:'200px'}}src="/Images/alumini.png" alt="career" />
                 <Form style={{width:'70%', marginLeft:'220px',marginTop:'60px',fontSize:'20px',fontWeight:'500'}}>
                
   <Row className="mb-3">

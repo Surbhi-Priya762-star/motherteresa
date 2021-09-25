@@ -14,7 +14,7 @@ import { CardGroup } from 'react-bootstrap';
 import "./Home.css";
 
 function Home() {
-  const images = ["Images/schoolactivity.png", "Images/schoolholiday.png", "Images/welcome school.png", "Images/image6.png"];
+  const images = ["Images/schoolactivity.png",  "Images/schoolholiday.png", "Images/welcomeschool.png", "Images/image6.png"];
     return (
       <>
       <div className="background">
@@ -24,7 +24,7 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image1.PNG"
+      src="\Images\image1.png"
       alt="First slide"
     />
    
@@ -32,7 +32,7 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image2.PNG"
+      src="\Images\image2.png"
       alt="Second slide"
     />
 
@@ -41,21 +41,21 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image3.PNG"
+      src="\Images\image3.png"
       alt="Third slide"
     />
     </Carousel.Item>
     <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image4.PNG"
+      src="\Images\image4.png"
       alt="Third slide"
     />
     </Carousel.Item>
     <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image5.PNG"
+      src="\Images\image5.png"
       alt="Third slide"
     />
     </Carousel.Item>

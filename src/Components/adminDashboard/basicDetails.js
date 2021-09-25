@@ -1,5 +1,4 @@
 import { Input, Button } from 'antd';
-import { useForm } from "react-hook-form";
 import React from 'react';
 import { toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';
@@ -15,6 +14,7 @@ const BasicDetails = () => {
     principaldetail: '',
     schoolEmailId: '',
     contactDetail: '',
+    completeAddress: ''
   })
 
   return (
@@ -26,6 +26,8 @@ const BasicDetails = () => {
       <Input onChange={({ target }) => setBasicDetail({ ...basicDetail, affilationNumber: target.value })} style={{ width: '450px', marginTop: '10px' }} placeholder="Affilation Number" />
       <label  style={{ textAlign: 'left', marginTop: '20px' }}> School Code(If Applicable) </label>
       <Input onChange={({ target }) => setBasicDetail({ ...basicDetail, sku: target.value })} style={{ width: '450px', marginTop: '10px' }} placeholder="School Code(If Applicable)" />
+      <label  style={{ textAlign: 'left', marginTop: '20px' }}> Complete Address </label>
+      <Input onChange={({ target }) => setBasicDetail({ ...basicDetail, completeAddress: target.value })} style={{ width: '450px', marginTop: '10px' }} placeholder="School Complete Address " />
       <label style={{ textAlign: 'left', marginTop: '20px' }}> Principal Name and qualification </label>
       <Input onChange={({ target }) => setBasicDetail({ ...basicDetail, principaldetail: target.value })} style={{ width: '450px', marginTop: '10px' }} placeholder="Principal Name and qualification" />
       <label style={{ textAlign: 'left', marginTop: '20px' }} > School Email ID </label>
