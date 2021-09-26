@@ -24,16 +24,16 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image1.png"
-      alt="First slide"
+      src="/Images/image1.png"
+      alt="First slides"
     />
    
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image2.png"
-      alt="Second slide"
+      src="/Images/image2.png"
+      alt="Second slides"
     />
 
    
@@ -41,22 +41,22 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image3.png"
-      alt="Third slide"
+      src="/Images/image3.png"
+      alt="Third slides"
     />
     </Carousel.Item>
     <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image4.png"
-      alt="Third slide"
+      src="/Images/image4.png"
+      alt="Third slides"
     />
     </Carousel.Item>
     <Carousel.Item>
     <img
       className="d-block w-100"
-      src="\Images\image5.png"
-      alt="Third slide"
+      src="/Images/image5.png"
+      alt="Third slides"
     />
     </Carousel.Item>
 </Carousel>
@@ -66,27 +66,27 @@ function Home() {
   <CardGroup className="cardgroup" >
     <a href="/Activities">
   <Card className="cards">
-   <Card.Img className="image" variant="top" src="\Images\Activity.jpg" />
+   <Card.Img className="image" variant="top" src="/Images/Activity.jpg" />
    
   </Card>
 </a>
 
 <a href="/Onlinefee">
   <Card className="cards">
-    <Card.Img className="image" variant="top" src="\Images\onlinefee.jpg" />
+    <Card.Img className="image" variant="top" src="/Images/onlinefee.jpg" />
   
   </Card>
   </a>
  
   <a href="/Syllabus">
   <Card className="cards">
-    <Card.Img className="image" variant="top" src="\Images\Syllabus.jpg" />
+    <Card.Img className="image" variant="top" src="/Images/Syllabus.jpg" />
    
   </Card>
   </a>
   <a href="Achievements">
   <Card className="cards">
-    <Card.Img className="image" variant="top" src="\Images\Achievement.jpg" />
+    <Card.Img className="image" variant="top" src="/Images/Achievement.jpg" />
    
   </Card>
   </a>
@@ -98,7 +98,7 @@ function Home() {
       <h1 className="aboutus">About Us</h1>
   <Row className="row">
   <Col>
-    <img className="Image2" src="\Images\Aboutus.jpg" alt="AboutUS" />
+    <img className="Image2" src="/Images/Aboutus.jpg" alt="AboutUS" />
     </Col>
     <Col>
     <p className="para">
@@ -110,7 +110,7 @@ function Home() {
     </Col>
   
     <Col>
-    <img className="Image2" src="\Images\image6.png" alt="AboutUS" />
+    <img className="Image2" src="/Images/image6.png" alt="AboutUS" />
     <div className="session"><h4 className="text6">For session 2021-2022</h4></div>
     </Col>
   </Row>
