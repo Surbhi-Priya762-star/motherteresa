@@ -100,7 +100,7 @@ function Header() {
               const win = window.open("https://docs.google.com/document/d/e/2PACX-1vSOzYWSZ5nVQxjA5CTeWiP-LXEUpXS6BSxKLYr5OqRaEdMUic1PGuWJKMztzbNfVKMYGKztUqDPzn0k/pub", "_blank");
               win.focus();
             }} href="/" className="navtext">Mandatoty Public Disclosure</Nav.Link> */}
-      <NavDropdown title="Mandatoty Public Disclosure" id="basic-nav-dropdown" className="navtext">
+            <NavDropdown title="Mandatory Public Disclosure" id="basic-nav-dropdown" className="navtext">
      
           <NavDropdown.Item href="/GeneralInformation">General Information</NavDropdown.Item>
           <NavDropdown.Divider />
