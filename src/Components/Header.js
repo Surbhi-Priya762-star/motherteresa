@@ -96,11 +96,8 @@ function Header() {
       <Nav.Link href="/Career" className="navtext">Career</Nav.Link>
       <Nav.Link href="/Admission" className="navtext">Admission Inquiry</Nav.Link>
       <Nav.Link href="/Contact" className="navtext">Contact Us</Nav.Link>
-            {/* <Nav.Link onClick={() => {
-              const win = window.open("https://docs.google.com/document/d/e/2PACX-1vSOzYWSZ5nVQxjA5CTeWiP-LXEUpXS6BSxKLYr5OqRaEdMUic1PGuWJKMztzbNfVKMYGKztUqDPzn0k/pub", "_blank");
-              win.focus();
-            }} href="/" className="navtext">Mandatoty Public Disclosure</Nav.Link> */}
-            <NavDropdown title="Mandatory Public Disclosure" id="basic-nav-dropdown" className="navtext">
+            
+            <NavDropdown title="School Documents" id="basic-nav-dropdown" className="navtext">
      
           <NavDropdown.Item href="/GeneralInformation">General Information</NavDropdown.Item>
           <NavDropdown.Divider />
@@ -114,6 +111,11 @@ function Header() {
           <NavDropdown.Divider />
          
           </NavDropdown>
+            <Nav.Link onClick={() => {
+              // https://docs.google.com/document/d/15kaFmzfRxkRm-a8UwiKTrzjaajzp0TRZ1DcgvylaPsI/edit?usp=sharing
+              const win = window.open("https://docs.google.com/document/d/15kaFmzfRxkRm-a8UwiKTrzjaajzp0TRZ1DcgvylaPsI/edit?usp=sharing", "_blank");
+              win.focus();
+            }} href="/" className="navtext">Mandatory Public Disclosure</Nav.Link>
     </Nav>
    
   
