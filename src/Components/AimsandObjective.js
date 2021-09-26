@@ -14,7 +14,7 @@ function AimsandObjective() {
     <h1 className="aboutus">Aims and Objectives</h1>
 <Row className="row">
 <Col>
-  <img className="Image2" src="\Images\Aboutus.jpg" alt="AboutUS" />
+                        <img className="Image2" src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2FAboutus.jpg?alt=media&token=372b4651-468f-4d9f-aede-9a46db200503" alt="AboutUS" />
   </Col>
   <Col>
  

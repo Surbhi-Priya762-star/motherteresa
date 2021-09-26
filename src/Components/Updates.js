@@ -18,7 +18,7 @@ function Updates() {
                 <h3 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '50px',marginLeft:'50px'}}> School Activities </h3>
                 </Col>
                 <Col xs={6}>
-            <a href="/Holiday">    <img style={{marginLeft:'60px',height:'400px',width:'400px',marginTop:'50px'}}src="/Images/schoolholiday.png" alt="career" /></a>
+                            <a href="/Holiday">    <img style={{ marginLeft: '60px', height: '400px', width: '400px', marginTop: '50px' }} src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fschoolholiday.png?alt=media&token=e8aea3c1-c2ae-455b-8b2a-46f6cdb039b2" alt="career" /></a>
                 <h3 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '50px',marginLeft:'50px'}}> School Holiday </h3>
                 </Col>
                 <Col xs={6}>

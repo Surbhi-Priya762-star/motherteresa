@@ -14,7 +14,7 @@ function Principaldesk() {
     <h1 className="aboutus">From Principal Desk</h1>
 
 
-  <img style={{marginLeft:'430px'}} className="Images2" src="\Images\director.png" alt="AboutUS" />
+            <img style={{ marginLeft: '430px' }} className="Images2" src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fdirector.png?alt=media&token=66551fc6-b998-48ef-b72c-03865f56f66a" alt="AboutUS" />
   
  
  

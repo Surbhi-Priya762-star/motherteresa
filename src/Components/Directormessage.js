@@ -15,7 +15,7 @@ function Directormessage() {
     <h1 className="aboutus">Managing Director's Message</h1>
 
 
-  <img style={{marginLeft:'400px'}} src="\Images\director.png" alt="AboutUS" />
+            <img style={{ marginLeft: '400px' }} src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fdirector.png?alt=media&token=66551fc6-b998-48ef-b72c-03865f56f66a" alt="AboutUS" />
 
  
   <p style={{fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100', margin:'auto'}}>

@@ -11,7 +11,7 @@ function Career() {
             <Header/>
             <Container>
                 <div style={{backgroundColor:'#fefefe',height:'950px', borderRadius:'25px',marginTop:'30px',width:'80%',margin:'auto'}}>
-            <img style={{margin:'auto',width:'100%'}}src="/Images/career.png" alt="career" />
+                    <img style={{ margin: 'auto', width: '100%' }} src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fcareer.png?alt=media&token=a23c30cf-dca1-4098-9115-c59fa9d53fe2" alt="career" />
                 <Form style={{width:'50%', marginLeft:'260px',marginTop:'60px',fontSize:'20px',fontWeight:'500'}}>
                     <Form.Select style={{marginTop:'20px',height:'50px',borderWidth:'4px'}}>
                      <option>Post Apply For</option>

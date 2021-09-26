@@ -24,7 +24,7 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/Images/image1.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fimage1.png?alt=media&token=c541cda3-325b-4051-af70-f60376566d9b"
       alt="First slides"
     />
    
@@ -32,7 +32,7 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/Images/image2.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fimage2.png?alt=media&token=2322ca11-881a-43b2-ae58-bc9e34c3d7cb"
       alt="Second slides"
     />
 
@@ -41,21 +41,21 @@ function Home() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/Images/image3.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fimage3.png?alt=media&token=12432503-cc7e-493f-a651-b62afe990530"
       alt="Third slides"
     />
     </Carousel.Item>
     <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/Images/image4.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fimage4.png?alt=media&token=f7308206-3924-4684-8a6a-acdba62349df"
       alt="Third slides"
     />
     </Carousel.Item>
     <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/Images/image5.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fimage5.png?alt=media&token=80ed86c5-6fd9-4c18-9b4e-865516f19ee6"
       alt="Third slides"
     />
     </Carousel.Item>
@@ -98,7 +98,7 @@ function Home() {
       <h1 className="aboutus">About Us</h1>
   <Row className="row">
   <Col>
-    <img className="Image2" src="/Images/Aboutus.jpg" alt="AboutUS" />
+                <img className="Image2" src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2FAboutus.jpg?alt=media&token=372b4651-468f-4d9f-aede-9a46db200503" alt="AboutUS" />
     </Col>
     <Col>
     <p className="para">
@@ -110,7 +110,7 @@ function Home() {
     </Col>
   
     <Col>
-    <img className="Image2" src="/Images/image6.png" alt="AboutUS" />
+                <img className="Image2" src="https://firebasestorage.googleapis.com/v0/b/motherteresa-d7f08.appspot.com/o/assets%2Fimage6.png?alt=media&token=67fdb24f-c29c-443b-9724-19a1f9f08a0b" alt="AboutUS" />
     <div className="session"><h4 className="text6">For session 2021-2022</h4></div>
     </Col>
   </Row>
