@@ -15,14 +15,17 @@ function Documents() {
       const data = snapshot.val();
       // updateStarCount(postElement, data);
       console.log('data', data)
-      setTableData([...data])
+      if(data) {
+        setTableData([...data])
+      }
+      
     });
   },[])
     return (
         <div>
             <Header/>
             <Container>
-            <div style={{height:'1200px', border: '8px dotted #f65868', backgroundColor: '#5c616e',fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100',marginTop:'40px'}}>
+            <div style={{height:'1200px', border: '8px dotted #f65868', backgroundColor: 'white',fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100',marginTop:'40px'}}>
             <h1 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '80px', marginLeft:'50px'}}> B. Documents and Information </h1>
             <Table striped bordered hover size="sm" style={{textAlign:'center',marginTop:'100px'}}> 
   <thead>

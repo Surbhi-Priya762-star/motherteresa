@@ -21,7 +21,7 @@ function GeneralInformation() {
         <div>
             <Header/>
 <Container>
-            <div style={{height:'1000px', border: '8px dotted #f65868', backgroundColor: '#5c616e',fontSize:'28px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100',marginTop:'40px'}}>
+            <div style={{height:'1000px', border: '8px dotted #f65868', backgroundColor: 'white',fontSize:'28px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100',marginTop:'40px'}}>
             <h1 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '80px', marginLeft:'250px'}}> A. General Information </h1>
             <Table striped bordered hover size="sm" style={{textAlign:'center',marginTop:'50px'}}> 
   <thead>

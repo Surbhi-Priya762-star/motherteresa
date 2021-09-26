@@ -15,7 +15,10 @@ function Results() {
       const data = snapshot.val();
       // updateStarCount(postElement, data);
       console.log('data', data)
-      setTableData([...data])
+      if(data) {
+        setTableData([...data])
+      }
+      
     });
     }, [])
   useEffect(() => {
@@ -25,7 +28,10 @@ function Results() {
       const data = snapshot.val();
       // updateStarCount(postElement, data);
       console.log('data', data)
-      setResul10([...data])
+      if(data) {
+        setResul10([...data])
+      }
+      
     });
     }, [])
   useEffect(() => {
@@ -35,14 +41,17 @@ function Results() {
       const data = snapshot.val();
       // updateStarCount(postElement, data);
       console.log('data', data)
-      setresult12([...data])
+      if(data) {
+        setresult12([...data])
+      }
+      
     });
     }, [])
     return (
         <div>
             <Header/>
             <Container>
-            <div style={{height:'100%', border: '8px dotted #f65868', backgroundColor: '#5c616e',fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100',marginTop:'40px'}}>
+            <div style={{height:'100%', border: '8px dotted #f65868', backgroundColor: 'white',fontSize:'22px', color: 'aliceblue',fontFamily: 'Righteous', fontWeight: '100',marginTop:'40px'}}>
             <h1 style={{color: 'rgb(2, 2, 48)', fontWeight: '900',fontSize: '80px', marginLeft:'50px'}}> C. Results and Academics </h1>
             <Table striped bordered hover size="sm" style={{textAlign:'center',marginTop:'50px'}}> 
   <thead>
